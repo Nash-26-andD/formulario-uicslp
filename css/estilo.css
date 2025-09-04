@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: violet;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+
+}
+
+.formu{
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 250px;
+    box-shadow:  0 4px 15px rgba(0, 0, 0, 2);
+}
+
+.formu h1{
+    margin: 100px 2px 100px;
+    text-align: center;
+    color: red;
+    margin-bottom:  10px;
+}
+
+.formu p{
+    /*display: block;*/
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.formu label{
+    display: block;
+    margin: 15 0 8px;
+    font-size: 15px;
+    display: block;
+
+}
+
+.formu textarea{
+    border-color: blueviolet;
+    width: 100%;
+}
+
+.formu button{
+    width: 100%;
+    padding: 12px;
+    background: blueviolet;
+
+    border-radius: 8px;
+    color: white;
+
+}
+
+.formu input{
+    border-color: violet;
+    width: 100%;
+}
